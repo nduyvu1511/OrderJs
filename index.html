@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="card-header">
+            <img class="card-header-logo" src="./img/1200px-Logo_KFC.svg.png" alt="">
+        </div>
+        <div class="order-form">
+            <h1>Your order from KFC</h1>
+            <ul class="order-list">
+                <li class="order-item">
+                    <span class="item-name">Pizza 001</span>
+                    <span class="quantity">
+                        <button>-</button>
+                        <input type="number" value="1">
+                        <button>+</button>
+                    </span>
+                    <span class="price">
+                        <span>$7.99</span>
+                        <button>X</button>
+                    </span>
+                    <li class="order-item">
+                        <span class="item-name">Pizza 001</span>
+                        <span class="quantity">
+                            <button>-</button>
+                            <input type="number" value="1">
+                            <button>+</button>
+                        </span>
+                        <span class="price">
+                            <span>$7.99</span>
+                            <button>X</button>
+                        </span>
+                    </li>
+                    <li class="order-item">
+                        <span class="item-name">Pizza 001</span>
+                        <span class="quantity">
+                            <button>-</button>
+                            <input type="number" value="1">
+                            <button>+</button>
+                        </span>
+                        <span class="price">
+                            <span>$7.99</span>
+                            <button>X</button>
+                        </span>
+                    </li>
+                </li>
+            </ul>
+            <button class="btn-add">Add Food</button>
+            <div class="order-summary">
+                <p>Subtotal <span id="sub-total" class="money">$15.98</span></p>
+                <p>Shipping <span id="shipping" class="money">$2</span></p>
+                <p>Total <span  id = "total" class="money">$17.98</span></p>
+            </div>
+            <button id="btn-checkout">Checkout</button>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
